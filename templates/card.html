@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+body::before {
+	background: #040404 url("{{ url_for('static', filename='img/portfolio/post.jpg') }}");
+}
+.img-thumbnail {
+    width: 500px; /* Установите желаемую ширину */
+    height: auto; /* Автоматически подстроит высоту */
+    border: 3px solid #ddd; /* Добавьте рамку, если нужно */
+    padding: 3px;
+}
+</style>
+    <!-- ======= шаблон для карточки портфолио ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">{{ card.title }}</h2>
+          </div>
+          <div class="col-lg-8 portfolio-info">
+            <h3>{{ card.dеscription }}</h3>
+            <ul>
+              <li><strong>Категория</strong>: {{ card.category.title() }}</li>
+              <li><strong>Описание</strong>: {{ card.description }}</li>
+              <li><strong>Примечания</strong>: <a href="{{ card.link}}">{{ card.info }}</a></li>
+            </ul>
+
+            <!-- Добавляем блок для отображения изображения -->
+            {% if card.image %}
+                <img src="{{ url_for('static', filename=card.image) }}" alt="{{ card.title }}" class="img-fluid">
+            {% endif %}
+
+            <p>
+              {{ card.html|safe }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- конец карточки -->
+  <!-- конец поста -->
+{% endblock %}
