@@ -27,6 +27,20 @@ Flask использует минималистичный дизайн и не �
 ![photo_5.png](github_pictures/v2/photo_5.png)
 ![photo_6.png](github_pictures/v2/photo_6.png)
 
-### [Telegram - Maxim Dupley](https://t.me/QuadD4rv1n7)
-### Автор: Дуплей Максим Игоревич
-### Дата: 29.07.2024
+---
+
+### Лицензия
+
+`MIT License` - открытый код для любых целей.
+
+---
+
+[Telegram (первый) - Maxim Dupley](https://t.me/quadd4rv1n7)
+
+[Telegram (второй) - Maxim Dupley](https://t.me/dupley_maxim_1999)
+
+[Ссылка на курсы Stepik](https://stepik.org/users/150943726/profile)
+
+**Автор:** Дуплей Максим Игоревич
+
+**Дата:** 29.07.2024
