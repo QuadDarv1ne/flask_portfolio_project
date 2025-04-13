@@ -1,6 +1,6 @@
 {
     "site_url":"http://localhost:8000",
-    "site_title": "Maxim Dupleye: Python разработчик и автор контента",
+    "site_title": "Maxim Dupley: Python разработчик и автор контента",
     "description": "Максим Дуплей - портфолио, резюме и блог Python разработчика",
     "keywords": "Веб-разработка на Python, бэкенд на Django и Flask",
     "name": "Максим Дуплей",
@@ -10,7 +10,7 @@
     "sect3":"Портфолио",
     "sect4":"Блог",
     "sect5":"Контакты",
-    "telegram":"https://t.me/QuadD4rv1n7/",
+    "telegram":"https://t.me/quadd4rv1n7/",
     "facebook":"https://www.facebook.com/maksim.dupley/",
     "vk":"https://vk.com/maestro7it/",
     "email":"mailto:maksimqwe42@mail.ru",
