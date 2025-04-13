@@ -1,0 +1,10 @@
+# Тестирование
+pytest
+pytest-cov
+
+# Линтинг
+flake8
+black
+
+# Запуск сервера
+gunicorn

@@ -8,6 +8,7 @@ FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = 'content'
 POST_DIR = 'posts'
 PORT_DIR = 'portfolio'
+
 app = Flask(__name__)
 flatpages = FlatPages(app)
 freezer = Freezer(app)
@@ -54,4 +55,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
-        app.run(host='127.0.0.1', port=5000, debug=DEBUG)  # Установлено False | port=8000
+        app.run(host='127.0.0.1', port=5001, debug=DEBUG)  # Установлено False | port=8000
